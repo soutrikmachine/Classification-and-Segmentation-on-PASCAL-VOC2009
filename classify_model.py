@@ -4,7 +4,7 @@ import keras
 import numpy as np
 from keras.models import Model
 from keras.layers import Dense,Flatten,Input
-from CNNautoencoder import encoder
+from convolutional_autoencoder import encoder
 
 x_train = np.load("../data/x_train.npy")
 y_train = np.load("../data/y_train.npy")
